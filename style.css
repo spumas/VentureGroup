@@ -60,16 +60,16 @@ body {
 }
 
 .logo {
-	width: 100vw;
+	width: 100%;
 	position: fixed;
-	top: 25px;
+	top: 55px;
 	display: flex;
 	justify-content: center;
 	transition: all 0.1s ease-in-out;
 }
 
 .logo img {
-	height: 35px;
+	height: 55px;
 }
 
 h1 {
@@ -82,14 +82,14 @@ h1 {
 .selection {
 	position: fixed;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	align-items: center;
 	flex-direction: column;
 	height: 500px;
 	width: 100vw;
 }
 
-.venture-1, .venture-2, .venture-3 {
+.venture-1, .venture-2 {
 	background-color: rgb(49, 49, 49);
 	height: 100px;
 	width: 300px;
@@ -111,11 +111,6 @@ h1 {
 	box-shadow: 0px 0px 30px rgba(57, 54, 255, 0.17);
 }
 
-.venture-3 {
-	background-color: #1b1b1b;
-	text-shadow: 0px 3px 30px rgba(11, 41, 14, 0.466);
-	box-shadow: 0px 0px 30px rgba(19, 82, 44, 0.349);
-}
 
 .venture-2 h1 {
 	color: #4684fa;
